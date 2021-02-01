@@ -33,7 +33,7 @@ function TodoList() {
     }
     return (
         <div>
-           <h1>MY TODO LIST</h1>
+           <h1>MY TO DO LIST</h1>
            <TodoForm onSubmit={addTodo} />
            <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
         </div>
